@@ -1,0 +1,37 @@
+{
+  "total_cases": 4812,
+  "province_count": 30,
+  "asymptomatic_count": 63,
+  "asymptomatic_ratio": 1.3092269326683292,
+  "wuhan_connection_count": 2090,
+  "wuhan_connection_ratio": 43.43308395677473,
+  "date_range": {
+    "min": "2019-08-30",
+    "max": "2020-12-31",
+    "days": 489
+  },
+  "lockdown_coverage": "SUFFICIENT",
+  "pre_lockdown_records": 5053,
+  "post_lockdown_records": 15475,
+  "venue_distribution": {
+    "学校": 206,
+    "餐厅": 827,
+    "医院": 3952,
+    "交通工具": 1855,
+    "家庭": 1687,
+    "公共场所": 693,
+    "工作场所": 554,
+    "酒店": 365,
+    "超市": 519,
+    "药店": 272
+  },
+  "symptom_distribution": {
+    "发热": 1812,
+    "肺炎": 1245,
+    "咳嗽": 472,
+    "流涕": 71,
+    "乏力": 197,
+    "腹泻": 51,
+    "咽痛": 84
+  }
+}

@@ -1,0 +1,299 @@
+{
+  "rq2": {
+    "degree": {
+      "asymptomatic_mean": 55.98412698412698,
+      "asymptomatic_std": 75.26724704814237,
+      "symptomatic_mean": 75.93324910507475,
+      "symptomatic_std": 79.0786274529959,
+      "mannwhitney_p": 0.016750340186523417,
+      "cohens_d": -0.2584201574343068
+    },
+    "page_rank": {
+      "asymptomatic_mean": 0.0006709528404098025,
+      "asymptomatic_std": 0.0007811200970592638,
+      "symptomatic_mean": 0.0008128177961497977,
+      "symptomatic_std": 0.0011353021508910604,
+      "mannwhitney_p": 0.010682478691273995,
+      "cohens_d": -0.14558625813953419
+    },
+    "betweenness": {
+      "asymptomatic_mean": 4.654918693657406e-06,
+      "asymptomatic_std": 1.1842769853670031e-05,
+      "symptomatic_mean": 7.257449387536813e-06,
+      "symptomatic_std": 1.925209925998714e-05,
+      "mannwhitney_p": 0.008744062416903103,
+      "cohens_d": -0.16282386608103708
+    },
+    "clustering": {
+      "asymptomatic_mean": 0.5714285714285714,
+      "asymptomatic_std": 0.4948716593053936,
+      "symptomatic_mean": 0.6895849961944255,
+      "symptomatic_std": 0.4623006458837198,
+      "mannwhitney_p": 0.04722947231987547,
+      "cohens_d": -0.24674361094289038
+    },
+    "isolation_rate": {
+      "asymptomatic": 0.42857142857142855,
+      "symptomatic": 0.30427458412297326
+    }
+  },
+  "rq3": {
+    "density": {
+      "pre": 0.006499287249406561,
+      "post": 0.003988518078227841,
+      "change_pct": -38.631448165235234
+    },
+    "avg_degree": {
+      "pre": 13.78042328042328,
+      "post": 11.631341600901916,
+      "change_pct": -15.595179013248723
+    },
+    "lcc_ratio": {
+      "pre": 0.10106085985482971,
+      "post": 0.07428571428571429,
+      "change_pct": -26.494080242970576
+    },
+    "weekly": [
+      {
+        "density": 0.0,
+        "avg_degree": 0,
+        "n_connections": 0,
+        "lcc_ratio": 1.0,
+        "week": "2019-08-30",
+        "n_events": 1,
+        "n_cases": 1,
+        "period": "pre"
+      },
+      {
+        "density": 0.0,
+        "avg_degree": 0,
+        "n_connections": 0,
+        "lcc_ratio": 0.5,
+        "week": "2019-11-08",
+        "n_events": 2,
+        "n_cases": 2,
+        "period": "pre"
+      },
+      {
+        "density": 0.0,
+        "avg_degree": 0,
+        "n_connections": 0,
+        "lcc_ratio": 0.5,
+        "week": "2019-11-22",
+        "n_events": 2,
+        "n_cases": 2,
+        "period": "pre"
+      },
+      {
+        "density": 0.0,
+        "avg_degree": 0,
+        "n_connections": 0,
+        "lcc_ratio": 0.5,
+        "week": "2019-11-29",
+        "n_events": 2,
+        "n_cases": 2,
+        "period": "pre"
+      },
+      {
+        "density": 0.0,
+        "avg_degree": 0,
+        "n_connections": 0,
+        "lcc_ratio": 0.3333333333333333,
+        "week": "2019-12-06",
+        "n_events": 3,
+        "n_cases": 3,
+        "period": "pre"
+      },
+      {
+        "density": 0.0,
+        "avg_degree": 0,
+        "n_connections": 0,
+        "lcc_ratio": 0.2,
+        "week": "2019-12-13",
+        "n_events": 5,
+        "n_cases": 5,
+        "period": "pre"
+      },
+      {
+        "density": 0.0,
+        "avg_degree": 0,
+        "n_connections": 0,
+        "lcc_ratio": 1.0,
+        "week": "2019-12-20",
+        "n_events": 1,
+        "n_cases": 1,
+        "period": "pre"
+      },
+      {
+        "density": 0.0,
+        "avg_degree": 0,
+        "n_connections": 0,
+        "lcc_ratio": 0.08333333333333333,
+        "week": "2019-12-27",
+        "n_events": 12,
+        "n_cases": 12,
+        "period": "pre"
+      },
+      {
+        "density": 0.006530612244897959,
+        "avg_degree": 1.2307692307692308,
+        "n_connections": 8,
+        "lcc_ratio": 0.06,
+        "week": "2020-01-03",
+        "n_events": 51,
+        "n_cases": 50,
+        "period": "pre"
+      },
+      {
+        "density": 0.010572835086149026,
+        "avg_degree": 4.4296875,
+        "n_connections": 567,
+        "lcc_ratio": 0.0701219512195122,
+        "week": "2020-01-10",
+        "n_events": 343,
+        "n_cases": 328,
+        "period": "pre"
+      },
+      {
+        "density": 0.008838560256752236,
+        "avg_degree": 16.677762982689746,
+        "n_connections": 12525,
+        "lcc_ratio": 0.10807600950118765,
+        "week": "2020-01-17",
+        "n_events": 1925,
+        "n_cases": 1684,
+        "period": "pre"
+      },
+      {
+        "density": 0.009213601146179633,
+        "avg_degree": 11.78865406006674,
+        "n_connections": 5299,
+        "lcc_ratio": 0.1043802423112768,
+        "week": "2020-01-24",
+        "n_events": 1200,
+        "n_cases": 1073,
+        "period": "post"
+      },
+      {
+        "density": 0.006071401801579358,
+        "avg_degree": 6.066079295154185,
+        "n_connections": 1377,
+        "lcc_ratio": 0.028189910979228485,
+        "week": "2020-01-31",
+        "n_events": 734,
+        "n_cases": 674,
+        "period": "post"
+      },
+      {
+        "density": 0.01134557016909958,
+        "avg_degree": 7.218390804597701,
+        "n_connections": 942,
+        "lcc_ratio": 0.049019607843137254,
+        "week": "2020-02-07",
+        "n_events": 435,
+        "n_cases": 408,
+        "period": "post"
+      },
+      {
+        "density": 0.01883116883116883,
+        "avg_degree": 3.0526315789473686,
+        "n_connections": 29,
+        "lcc_ratio": 0.125,
+        "week": "2020-02-14",
+        "n_events": 60,
+        "n_cases": 56,
+        "period": "post"
+      },
+      {
+        "density": 0.3333333333333333,
+        "avg_degree": 1.0,
+        "n_connections": 1,
+        "lcc_ratio": 0.6666666666666666,
+        "week": "2020-02-21",
+        "n_events": 6,
+        "n_cases": 3,
+        "period": "post"
+      },
+      {
+        "density": 0.1,
+        "avg_degree": 1.0,
+        "n_connections": 1,
+        "lcc_ratio": 0.4,
+        "week": "2020-02-28",
+        "n_events": 5,
+        "n_cases": 5,
+        "period": "post"
+      },
+      {
+        "density": 0.0,
+        "avg_degree": 0,
+        "n_connections": 0,
+        "lcc_ratio": 1.0,
+        "week": "2020-03-13",
+        "n_events": 1,
+        "n_cases": 1,
+        "period": "post"
+      },
+      {
+        "density": 0.0,
+        "avg_degree": 0,
+        "n_connections": 0,
+        "lcc_ratio": 1.0,
+        "week": "2020-11-20",
+        "n_events": 1,
+        "n_cases": 1,
+        "period": "post"
+      },
+      {
+        "density": 0.0,
+        "avg_degree": 0,
+        "n_connections": 0,
+        "lcc_ratio": 1.0,
+        "week": "2020-11-27",
+        "n_events": 1,
+        "n_cases": 1,
+        "period": "post"
+      },
+      {
+        "density": 0.0,
+        "avg_degree": 0,
+        "n_connections": 0,
+        "lcc_ratio": 0.5,
+        "week": "2020-12-04",
+        "n_events": 2,
+        "n_cases": 2,
+        "period": "post"
+      },
+      {
+        "density": 0.0,
+        "avg_degree": 0,
+        "n_connections": 0,
+        "lcc_ratio": 1.0,
+        "week": "2020-12-11",
+        "n_events": 1,
+        "n_cases": 1,
+        "period": "post"
+      },
+      {
+        "density": 0.0,
+        "avg_degree": 0,
+        "n_connections": 0,
+        "lcc_ratio": 1.0,
+        "week": "2020-12-18",
+        "n_events": 2,
+        "n_cases": 1,
+        "period": "post"
+      },
+      {
+        "density": 0.16666666666666666,
+        "avg_degree": 1.0,
+        "n_connections": 1,
+        "lcc_ratio": 0.5,
+        "week": "2020-12-25",
+        "n_events": 4,
+        "n_cases": 4,
+        "period": "post"
+      }
+    ]
+  }
+}

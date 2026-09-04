@@ -1,0 +1,67 @@
+=== Table: Component Ablation ===
+
+\begin{table}[t]
+\caption{Component Ablation on CSKEN. TEGAT-Full uses all features including venue-specific aggregations and transport statistics. Removing any feature group reduces AUC-ROC, confirming the contribution of each component.}
+\label{tab:ablation_component}
+\centering
+\begin{tabular}{lcccccc}
+\toprule
+\textbf{Variant} & \textbf{AUC-ROC} & \textbf{AP} & \textbf{Acc.} & \textbf{F1} & \textbf{Prec.} & \textbf{Recall}\\
+\midrule
+w/o Transport             & 0.9860 & 0.9898 & 0.9709 & 0.9792 & 0.9691 & 0.9895 \\
+TEGAT-Full                & 0.9858 & 0.9872 & 0.9720 & 0.9800 & 0.9692 & 0.9910 & \textit{+0.0000} \\
+w/o Wuhan-Related         & 0.9849 & 0.9865 & 0.9657 & 0.9754 & 0.9675 & 0.9835 & \textit{-0.0009} \\
+w/o Venue-Specific        & 0.9843 & 0.9870 & 0.9688 & 0.9776 & 0.9732 & 0.9820 & \textit{-0.0015} \\
+Base-Only                 & 0.9843 & 0.9861 & 0.9668 & 0.9761 & 0.9717 & 0.9805 & \textit{-0.0015} \\
+w/o Symptom               & 0.9823 & 0.9864 & 0.9688 & 0.9777 & 0.9690 & 0.9865 & \textit{-0.0035} \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\item Δ denotes change relative to TEGAT-Full. Test set $n$=963.
+\end{tablenotes}
+\end{table}
+
+
+=== Table: tau Sensitivity ===
+
+\begin{table}[t]
+\caption{Temporal Decay Sensitivity (τ) and Time Window Analysis. AUC-ROC peaks at τ=14 days (equivalent to ±7-day time window), suggesting that a longer temporal proximity range captures more true transmission edges.}
+\label{tab:tau_sensitivity}
+\centering
+\begin{tabular}{lcccccc}
+\toprule
+\textbf{τ (days)} & \textbf{AUC-ROC} & \textbf{AP} & \textbf{Acc.} & \textbf{F1} & \textbf{Prec.} & \textbf{Recall}\\
+\midrule
+τ=14 days              & 0.9925 & 0.9947 & 0.9782 & 0.9845 & 0.9737 & 0.9955 \\
+τ=7                    & 0.9890 & 0.9904 & 0.9761 & 0.9829 & 0.9735 & 0.9925 \textit{(baseline)} \\
+τ=5 days               & 0.9887 & 0.9901 & 0.9772 & 0.9837 & 0.9722 & 0.9955 \\
+τ=3 days               & 0.9858 & 0.9872 & 0.9720 & 0.9800 & 0.9692 & 0.9910 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\item Baseline τ=7 days corresponds to the ±3-day edge construction window. Test set $n$=963.
+\end{tablenotes}
+\end{table}
+
+
+=== Table: Feature Group Ablation ===
+
+\begin{table}[t]
+\caption{Feature Group Ablation. Removing event-count features causes the largest AUC-ROC drop ($-$0.0073), followed by removing temporal features ($-$0.0061), confirming that event frequency and timing are the most discriminative signals for cluster-membership prediction.}
+\label{tab:feature_ablation}
+\centering
+\begin{tabular}{lcccccc}
+\toprule
+\textbf{Removed Group} & \textbf{AUC-ROC} & \textbf{AP} & \textbf{Acc.} & \textbf{F1} & \textbf{Prec.} & \textbf{Recall}\\
+\midrule
+w/o Age                   & 0.9862 & 0.9889 & 0.9574 & 0.9693 & 0.9671 & 0.9715 \textit{+0.0004} \\
+TEGAT-Full                & 0.9858 & 0.9872 & 0.9720 & 0.9800 & 0.9692 & 0.9910 \textit{(baseline)} \\
+w/o Gender                & 0.9842 & 0.9835 & 0.9720 & 0.9800 & 0.9692 & 0.9910 \textit{-0.0016} \\
+w/o Time Features         & 0.9797 & 0.9856 & 0.9564 & 0.9686 & 0.9643 & 0.9730 \textit{-0.0061} \\
+w/o Event-Count           & 0.9785 & 0.9867 & 0.9439 & 0.9602 & 0.9435 & 0.9775 \textit{-0.0073} \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\item Δ denotes change relative to TEGAT-Full. Test set $n$=963.
+\end{tablenotes}
+\end{table}

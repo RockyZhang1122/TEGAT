@@ -1,0 +1,21 @@
+{
+  "total_cases": 4812,
+  "total_events": 6194,
+  "avg_events_per_case": 1.2871986699916875,
+  "event_type_distribution": {
+    "其他": 1140,
+    "就诊": 3610,
+    "工作": 208,
+    "交通": 608,
+    "就餐": 158,
+    "出行": 68,
+    "居家": 230,
+    "购物": 127,
+    "聚会": 45
+  },
+  "dated_events": 4799,
+  "dated_ratio": 77.47820471423958,
+  "pre_lockdown_events": 2007,
+  "post_lockdown_events": 2792,
+  "asymptomatic_count": 63
+}

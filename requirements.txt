@@ -1,0 +1,26 @@
+# Runtime dependencies for the TEGAT pipeline
+# Tested on Python 3.9 - 3.12.
+
+# Core scientific stack
+numpy>=1.23
+scipy>=1.10
+pandas>=1.5
+
+# Modelling
+scikit-learn>=1.2
+
+# Optional graph learning baselines (kept for cross-validation studies)
+xgboost>=1.7
+
+# Plotting / figures
+matplotlib>=3.6
+networkx>=2.9
+
+# Configurable from the command line
+tqdm>=4.64
+
+# Jupyter notebooks, if you open the example notebooks in docs/notebooks
+jupyter>=1.0
+
+# Testing
+pytest>=7.0

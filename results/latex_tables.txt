@@ -1,0 +1,113 @@
+
+
+============================================================
+Table: table_iii_main
+============================================================
+
+
+\begin{table}[t]
+\caption{Transmission Risk Prediction Performance.\label{tab:main_results}}
+\centering
+\resizebox{\linewidth}{!}{
+\begin{threeparttable}
+\begin{tabular}{lcccccc}
+\toprule
+\textbf{Method} & \textbf{AUC-ROC} & \textbf{AP} & \textbf{Accuracy} & \textbf{F1} & \textbf{Precision} & \textbf{Recall}\\ 
+\midrule
+XGBoost        & 0.9861 & 0.9895 & 0.9699 & 0.9784 & 0.9719 & 0.9850\\ 
+TEGAT-Reduced  & 0.9861 & 0.9895 & 0.9699 & 0.9784 & 0.9719 & 0.9850\\ 
+RF             & 0.9858 & 0.9883 & 0.9585 & 0.9708 & 0.9459 & 0.9970\\ 
+TEGAT          & 0.9858 & 0.9872 & 0.9720 & 0.9800 & 0.9692 & 0.9910\\ 
+\midrule
+MLP            & 0.9837 & 0.9879 & 0.9574 & 0.9694 & 0.9630 & 0.9760\\ 
+SVM            & 0.9788 & 0.9869 & 0.9512 & 0.9650 & 0.9572 & 0.9730\\ 
+LR             & 0.9719 & 0.9767 & 0.9470 & 0.9619 & 0.9569 & 0.9670\\ 
+\bottomrule
+\end{tabular}
+egin{tablenotes}
+\item Best results are 	extbf{boldfaced}. All values are averaged over 5 random seeds.
+\end{tablenotes}
+\end{threeparttable}
+}
+\end{table}
+
+
+============================================================
+Table: table_iv_venue
+============================================================
+
+
+\begin{table}[t]
+\caption{Venue Transmission Risk Ranking.\label{tab:venue_risk}}
+\centering
+\begin{tabular}{clccc}
+\toprule
+\textbf{Rank} & \textbf{Venue} & \textbf{Avg. Risk Score} & \textbf{\# Cases} & \textbf{\# Provinces}\\ 
+\midrule
+1 & Pharmacy & 1.0000 & 210 & 12\\ 
+2 & Hotel & 0.9852 & 282 & 17\\ 
+3 & Supermarket & 0.9817 & 417 & 19\\ 
+4 & Household & 0.9778 & 1290 & 22\\ 
+5 & Public Space & 0.9772 & 557 & 19\\ 
+6 & Transportation & 0.9764 & 1481 & 24\\ 
+7 & School & 0.9764 & 154 & 11\\ 
+8 & Restaurant & 0.9753 & 639 & 20\\ 
+9 & Workplace & 0.9373 & 471 & 19\\ 
+10 & Hospital & 0.9207 & 3251 & 25\\ 
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\item Risk score is defined as the cluster participation rate (proportion of cases with $\ge$1 co-location contact within $\pm$3 days). ANOVA F=3.03, p=0.002.
+\end{tablenotes}
+\end{table}
+
+
+============================================================
+Table: table_v_asymptomatic
+============================================================
+
+
+\begin{table}[t]
+\caption{Asymptomatic vs. Symptomatic Cases: Network Centrality Comparison.\label{tab:asymptomatic}}
+\centering
+\begin{tabular}{lcccccc}
+\toprule
+\multirow{2}{*}{\textbf{Metric}} & \multicolumn{2}{c}{\textbf{Asymptomatic (n=63)}} & \multicolumn{2}{c}{\textbf{Symptomatic (n=4749)}} & \multirow{2}{*}{p-value} & \multirow{2}{*}{Cohen's d}\\ 
+\cmidrule{2-3} \cmidrule{4-5}
+ & Mean & SD & Mean & SD & \\ 
+\midrule
+Degree Centrality & 55.9841 & 75.2672 & 75.9332 & 79.0786 & 0.0168 & -0.2584\\ 
+PageRank & 0.0007 & 0.0008 & 0.0008 & 0.0011 & 0.0107 & -0.1456\\ 
+Betweenness & 55.9841 & 75.2672 & 75.9332 & 79.0786 & 0.0168 & -0.2584\\ 
+Clustering Coef. & 0.5714 & 0.4949 & 0.6896 & 0.4623 & 0.0472 & -0.2467\\ 
+\midrule
+\multicolumn{7}{p{12cm}}{\textbf{Isolated Cases (degree=0)}: Asymptomatic 42.9\% vs. Symptomatic 30.4\%}\\ 
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\item Statistical test: two-sided Mann-Whitney U test. Effect size: Cohen's d.
+\end{tablenotes}
+\end{table}
+
+
+============================================================
+Table: table_vi_intervention
+============================================================
+
+
+\begin{table}[t]
+\caption{Network Structural Changes Before and After Wuhan Lockdown (2020-01-23).\label{tab:intervention}}
+\centering
+\begin{tabular}{lccc}
+\toprule
+\textbf{Metric} & \textbf{Pre-Lockdown} & \textbf{Post-Lockdown} & \textbf{Change}\\ 
+\midrule
+Network Density & 0.006499 & 0.003989 & -38.6\%\\ 
+Average Degree & 13.780423 & 11.631342 & -15.6\%\\ 
+Largest CC Ratio & 0.101061 & 0.074286 & -26.5\%\\ 
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\item Pre-lockdown: 2,007 events (146 days). Post-lockdown: 2,792 events (343 days). LCC = Largest Connected Component.
+\end{tablenotes}
+\end{table}

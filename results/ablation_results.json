@@ -1,0 +1,178 @@
+{
+  "ablation_components": {
+    "TEGAT-Full": {
+      "AUC-ROC": 0.9858,
+      "AP": 0.9872,
+      "Accuracy": 0.972,
+      "F1": 0.98,
+      "Precision": 0.9692,
+      "Recall": 0.991,
+      "n_test": 963
+    },
+    "w/o Venue-Specific": {
+      "AUC-ROC": 0.9843,
+      "AP": 0.987,
+      "Accuracy": 0.9688,
+      "F1": 0.9776,
+      "Precision": 0.9732,
+      "Recall": 0.982,
+      "n_test": 963
+    },
+    "w/o Transport": {
+      "AUC-ROC": 0.986,
+      "AP": 0.9898,
+      "Accuracy": 0.9709,
+      "F1": 0.9792,
+      "Precision": 0.9691,
+      "Recall": 0.9895,
+      "n_test": 963
+    },
+    "Base-Only": {
+      "AUC-ROC": 0.9843,
+      "AP": 0.9861,
+      "Accuracy": 0.9668,
+      "F1": 0.9761,
+      "Precision": 0.9717,
+      "Recall": 0.9805,
+      "n_test": 963
+    },
+    "w/o Wuhan-Related": {
+      "AUC-ROC": 0.9849,
+      "AP": 0.9865,
+      "Accuracy": 0.9657,
+      "F1": 0.9754,
+      "Precision": 0.9675,
+      "Recall": 0.9835,
+      "n_test": 963
+    },
+    "w/o Symptom": {
+      "AUC-ROC": 0.9823,
+      "AP": 0.9864,
+      "Accuracy": 0.9688,
+      "F1": 0.9777,
+      "Precision": 0.969,
+      "Recall": 0.9865,
+      "n_test": 963
+    }
+  },
+  "ablation_time_window": {
+    "±1 day": {
+      "AUC-ROC": 0.9775,
+      "AP": 0.9794,
+      "Accuracy": 0.9605,
+      "F1": 0.9713,
+      "Precision": 0.9527,
+      "Recall": 0.9908,
+      "n_test": 963,
+      "edge_count": 3281,
+      "positive_ratio": 0.6818
+    },
+    "±3 days (baseline)": {
+      "AUC-ROC": 0.9858,
+      "AP": 0.9872,
+      "Accuracy": 0.972,
+      "F1": 0.98,
+      "Precision": 0.9692,
+      "Recall": 0.991,
+      "n_test": 963,
+      "edge_count": 3328,
+      "positive_ratio": 0.6916
+    },
+    "±7 days": {
+      "AUC-ROC": 0.989,
+      "AP": 0.9904,
+      "Accuracy": 0.9761,
+      "F1": 0.9829,
+      "Precision": 0.9735,
+      "Recall": 0.9925,
+      "n_test": 963,
+      "edge_count": 3340,
+      "positive_ratio": 0.6941
+    }
+  },
+  "tau_sensitivity": {
+    "τ=3 days": {
+      "AUC-ROC": 0.9858,
+      "AP": 0.9872,
+      "Accuracy": 0.972,
+      "F1": 0.98,
+      "Precision": 0.9692,
+      "Recall": 0.991,
+      "n_test": 963
+    },
+    "τ=5 days": {
+      "AUC-ROC": 0.9887,
+      "AP": 0.9901,
+      "Accuracy": 0.9772,
+      "F1": 0.9837,
+      "Precision": 0.9722,
+      "Recall": 0.9955,
+      "n_test": 963
+    },
+    "τ=7 days (baseline)": {
+      "AUC-ROC": 0.989,
+      "AP": 0.9904,
+      "Accuracy": 0.9761,
+      "F1": 0.9829,
+      "Precision": 0.9735,
+      "Recall": 0.9925,
+      "n_test": 963
+    },
+    "τ=14 days": {
+      "AUC-ROC": 0.9925,
+      "AP": 0.9947,
+      "Accuracy": 0.9782,
+      "F1": 0.9845,
+      "Precision": 0.9737,
+      "Recall": 0.9955,
+      "n_test": 963
+    }
+  },
+  "ablation_feature_groups": {
+    "TEGAT-Full": {
+      "AUC-ROC": 0.9858,
+      "AP": 0.9872,
+      "Accuracy": 0.972,
+      "F1": 0.98,
+      "Precision": 0.9692,
+      "Recall": 0.991,
+      "n_test": 963
+    },
+    "w/o Age": {
+      "AUC-ROC": 0.9862,
+      "AP": 0.9889,
+      "Accuracy": 0.9574,
+      "F1": 0.9693,
+      "Precision": 0.9671,
+      "Recall": 0.9715,
+      "n_test": 963
+    },
+    "w/o Gender": {
+      "AUC-ROC": 0.9842,
+      "AP": 0.9835,
+      "Accuracy": 0.972,
+      "F1": 0.98,
+      "Precision": 0.9692,
+      "Recall": 0.991,
+      "n_test": 963
+    },
+    "w/o Time Features": {
+      "AUC-ROC": 0.9797,
+      "AP": 0.9856,
+      "Accuracy": 0.9564,
+      "F1": 0.9686,
+      "Precision": 0.9643,
+      "Recall": 0.973,
+      "n_test": 963
+    },
+    "w/o Event-Count": {
+      "AUC-ROC": 0.9785,
+      "AP": 0.9867,
+      "Accuracy": 0.9439,
+      "F1": 0.9602,
+      "Precision": 0.9435,
+      "Recall": 0.9775,
+      "n_test": 963
+    }
+  }
+}

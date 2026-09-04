@@ -1,0 +1,445 @@
+[
+  {
+    "province": "上海市确诊病例活动轨迹",
+    "case_count": 12,
+    "asymptomatic": 0,
+    "wuhan_related": 2,
+    "first_date": "2020-01-14",
+    "last_date": "2020-02-07",
+    "top_venues": {
+      "医院": 9,
+      "交通工具": 9,
+      "家庭": 6,
+      "公共场所": 5,
+      "超市": 4
+    }
+  },
+  {
+    "province": "云南省确诊病例活动轨迹",
+    "case_count": 38,
+    "asymptomatic": 0,
+    "wuhan_related": 19,
+    "first_date": "2020-01-07",
+    "last_date": "2020-12-14",
+    "top_venues": {
+      "医院": 22,
+      "交通工具": 22,
+      "家庭": 9,
+      "餐厅": 8,
+      "酒店": 7
+    }
+  },
+  {
+    "province": "内蒙古确诊病例活动轨迹",
+    "case_count": 33,
+    "asymptomatic": 0,
+    "wuhan_related": 8,
+    "first_date": "2019-12-01",
+    "last_date": "2020-12-01",
+    "top_venues": {
+      "医院": 21,
+      "公共场所": 19,
+      "交通工具": 18,
+      "超市": 18,
+      "家庭": 15
+    }
+  },
+  {
+    "province": "北京市确诊病例行程轨迹",
+    "case_count": 97,
+    "asymptomatic": 0,
+    "wuhan_related": 0,
+    "first_date": "2020-02-05",
+    "last_date": "2020-03-12",
+    "top_venues": {
+      "学校": 2,
+      "公共场所": 2,
+      "餐厅": 2,
+      "医院": 2,
+      "交通工具": 1
+    }
+  },
+  {
+    "province": "台湾省确诊病例活动轨迹",
+    "case_count": 2,
+    "asymptomatic": 1,
+    "wuhan_related": 0,
+    "first_date": "2020-01-27",
+    "last_date": "2020-02-15",
+    "top_venues": {
+      "医院": 2
+    }
+  },
+  {
+    "province": "吉林省确诊病例活动轨迹",
+    "case_count": 144,
+    "asymptomatic": 0,
+    "wuhan_related": 46,
+    "first_date": "2020-01-10",
+    "last_date": "2020-02-19",
+    "top_venues": {
+      "医院": 99,
+      "交通工具": 82,
+      "家庭": 73,
+      "餐厅": 43,
+      "公共场所": 42
+    }
+  },
+  {
+    "province": "四川省确诊病例活动轨迹",
+    "case_count": 287,
+    "asymptomatic": 20,
+    "wuhan_related": 111,
+    "first_date": "2019-12-28",
+    "last_date": "2020-12-28",
+    "top_venues": {
+      "医院": 263,
+      "家庭": 114,
+      "交通工具": 111,
+      "餐厅": 53,
+      "公共场所": 50
+    }
+  },
+  {
+    "province": "天津市确诊病例活动轨迹",
+    "case_count": 124,
+    "asymptomatic": 0,
+    "wuhan_related": 82,
+    "first_date": "2020-01-01",
+    "last_date": "2020-02-16",
+    "top_venues": {
+      "医院": 124,
+      "工作场所": 64,
+      "家庭": 62,
+      "交通工具": 26,
+      "学校": 15
+    }
+  },
+  {
+    "province": "宁夏确诊病例活动轨迹",
+    "case_count": 33,
+    "asymptomatic": 0,
+    "wuhan_related": 3,
+    "first_date": "2020-01-08",
+    "last_date": "2020-02-12",
+    "top_venues": {
+      "家庭": 23,
+      "医院": 20,
+      "交通工具": 16,
+      "公共场所": 7,
+      "超市": 7
+    }
+  },
+  {
+    "province": "安徽省确诊病例行程轨迹",
+    "case_count": 223,
+    "asymptomatic": 1,
+    "wuhan_related": 84,
+    "first_date": "2019-08-30",
+    "last_date": "2020-08-30",
+    "top_venues": {
+      "医院": 195,
+      "家庭": 50,
+      "交通工具": 49,
+      "公共场所": 39,
+      "餐厅": 36
+    }
+  },
+  {
+    "province": "山东省确诊病例活动轨迹",
+    "case_count": 199,
+    "asymptomatic": 5,
+    "wuhan_related": 63,
+    "first_date": "2019-11-23",
+    "last_date": "2020-11-23",
+    "top_venues": {
+      "医院": 171,
+      "交通工具": 55,
+      "家庭": 43,
+      "公共场所": 26,
+      "超市": 22
+    }
+  },
+  {
+    "province": "山西省确诊病例活动轨迹",
+    "case_count": 109,
+    "asymptomatic": 3,
+    "wuhan_related": 70,
+    "first_date": "2020-01-01",
+    "last_date": "2020-12-26",
+    "top_venues": {
+      "医院": 91,
+      "家庭": 75,
+      "交通工具": 74,
+      "公共场所": 17,
+      "超市": 14
+    }
+  },
+  {
+    "province": "广东省确诊病例行程轨迹",
+    "case_count": 267,
+    "asymptomatic": 3,
+    "wuhan_related": 207,
+    "first_date": "2019-11-29",
+    "last_date": "2020-12-18",
+    "top_venues": {
+      "医院": 247,
+      "交通工具": 156,
+      "家庭": 86,
+      "餐厅": 41,
+      "酒店": 32
+    }
+  },
+  {
+    "province": "广西确诊病例活动轨迹",
+    "case_count": 85,
+    "asymptomatic": 2,
+    "wuhan_related": 33,
+    "first_date": "2019-11-12",
+    "last_date": "2020-12-28",
+    "top_venues": {
+      "医院": 81,
+      "交通工具": 37,
+      "家庭": 15,
+      "公共场所": 8,
+      "工作场所": 6
+    }
+  },
+  {
+    "province": "新疆确诊病例活动轨迹",
+    "case_count": 5,
+    "asymptomatic": 0,
+    "wuhan_related": 1,
+    "first_date": "2020-01-17",
+    "last_date": "2020-01-22",
+    "top_venues": {
+      "家庭": 2,
+      "医院": 2,
+      "餐厅": 2,
+      "酒店": 2,
+      "交通工具": 1
+    }
+  },
+  {
+    "province": "江苏省确诊病例活动轨迹",
+    "case_count": 153,
+    "asymptomatic": 1,
+    "wuhan_related": 81,
+    "first_date": "2019-12-09",
+    "last_date": "2020-12-13",
+    "top_venues": {
+      "医院": 152,
+      "交通工具": 68,
+      "家庭": 61,
+      "公共场所": 25,
+      "餐厅": 20
+    }
+  },
+  {
+    "province": "江西省确诊病例行程轨迹",
+    "case_count": 17,
+    "asymptomatic": 0,
+    "wuhan_related": 0,
+    "first_date": "2020-01-07",
+    "last_date": "2020-02-13",
+    "top_venues": {
+      "医院": 15,
+      "家庭": 9,
+      "餐厅": 9,
+      "公共场所": 7,
+      "药店": 5
+    }
+  },
+  {
+    "province": "河北省确诊病例活动轨迹",
+    "case_count": 286,
+    "asymptomatic": 5,
+    "wuhan_related": 111,
+    "first_date": "2019-12-25",
+    "last_date": "2020-12-30",
+    "top_venues": {
+      "医院": 275,
+      "交通工具": 90,
+      "家庭": 81,
+      "餐厅": 43,
+      "公共场所": 26
+    }
+  },
+  {
+    "province": "河南省确诊病例行程轨迹",
+    "case_count": 536,
+    "asymptomatic": 6,
+    "wuhan_related": 299,
+    "first_date": "2019-12-18",
+    "last_date": "2020-12-29",
+    "top_venues": {
+      "医院": 475,
+      "交通工具": 189,
+      "家庭": 137,
+      "工作场所": 64,
+      "餐厅": 45
+    }
+  },
+  {
+    "province": "浙江省确诊病例活动轨迹",
+    "case_count": 435,
+    "asymptomatic": 8,
+    "wuhan_related": 127,
+    "first_date": "2020-01-07",
+    "last_date": "2020-02-13",
+    "top_venues": {
+      "医院": 428,
+      "交通工具": 12,
+      "工作场所": 4,
+      "家庭": 3,
+      "公共场所": 1
+    }
+  },
+  {
+    "province": "海南省确诊病例活动轨迹",
+    "case_count": 329,
+    "asymptomatic": 0,
+    "wuhan_related": 120,
+    "first_date": "2019-11-08",
+    "last_date": "2020-12-18",
+    "top_venues": {
+      "医院": 165,
+      "交通工具": 142,
+      "家庭": 122,
+      "餐厅": 67,
+      "公共场所": 60
+    }
+  },
+  {
+    "province": "湖南省确诊病例行程轨迹",
+    "case_count": 250,
+    "asymptomatic": 1,
+    "wuhan_related": 102,
+    "first_date": "2020-01-05",
+    "last_date": "2020-02-16",
+    "top_venues": {
+      "医院": 62,
+      "交通工具": 33,
+      "家庭": 27,
+      "工作场所": 17,
+      "餐厅": 16
+    }
+  },
+  {
+    "province": "甘肃省确诊病例活动轨迹",
+    "case_count": 83,
+    "asymptomatic": 0,
+    "wuhan_related": 33,
+    "first_date": "2020-01-01",
+    "last_date": "2020-12-23",
+    "top_venues": {
+      "医院": 72,
+      "交通工具": 67,
+      "家庭": 51,
+      "餐厅": 35,
+      "工作场所": 27
+    }
+  },
+  {
+    "province": "福建省确诊病例行程轨迹",
+    "case_count": 52,
+    "asymptomatic": 0,
+    "wuhan_related": 30,
+    "first_date": "2020-01-08",
+    "last_date": "2020-02-11",
+    "top_venues": {
+      "医院": 49,
+      "家庭": 38,
+      "交通工具": 35,
+      "公共场所": 19,
+      "餐厅": 16
+    }
+  },
+  {
+    "province": "贵州省确诊病例活动轨迹",
+    "case_count": 102,
+    "asymptomatic": 1,
+    "wuhan_related": 51,
+    "first_date": "2019-12-07",
+    "last_date": "2020-12-07",
+    "top_venues": {
+      "医院": 99,
+      "家庭": 65,
+      "交通工具": 57,
+      "餐厅": 37,
+      "酒店": 23
+    }
+  },
+  {
+    "province": "辽宁省确诊病例活动轨迹",
+    "case_count": 72,
+    "asymptomatic": 1,
+    "wuhan_related": 38,
+    "first_date": "2019-12-16",
+    "last_date": "2020-12-16",
+    "top_venues": {
+      "医院": 64,
+      "交通工具": 52,
+      "家庭": 49,
+      "工作场所": 21,
+      "学校": 20
+    }
+  },
+  {
+    "province": "重庆市确诊病例活动轨迹",
+    "case_count": 365,
+    "asymptomatic": 3,
+    "wuhan_related": 148,
+    "first_date": "2019-12-31",
+    "last_date": "2020-12-31",
+    "top_venues": {
+      "医院": 326,
+      "家庭": 198,
+      "交通工具": 190,
+      "餐厅": 115,
+      "公共场所": 93
+    }
+  },
+  {
+    "province": "陕西省确诊病例活动轨迹",
+    "case_count": 36,
+    "asymptomatic": 0,
+    "wuhan_related": 9,
+    "first_date": "2020-01-03",
+    "last_date": "2020-02-16",
+    "top_venues": {
+      "交通工具": 22,
+      "医院": 15,
+      "家庭": 6,
+      "工作场所": 3,
+      "公共场所": 3
+    }
+  },
+  {
+    "province": "香港确诊病例活动轨迹",
+    "case_count": 3,
+    "asymptomatic": 0,
+    "wuhan_related": 1,
+    "first_date": "2020-01-21",
+    "last_date": "2020-02-12",
+    "top_venues": {
+      "医院": 3,
+      "交通工具": 1
+    }
+  },
+  {
+    "province": "黑龙江省确诊病例行程轨迹",
+    "case_count": 435,
+    "asymptomatic": 2,
+    "wuhan_related": 211,
+    "first_date": "2020-01-03",
+    "last_date": "2020-12-26",
+    "top_venues": {
+      "医院": 403,
+      "家庭": 267,
+      "交通工具": 237,
+      "餐厅": 167,
+      "公共场所": 117
+    }
+  }
+]

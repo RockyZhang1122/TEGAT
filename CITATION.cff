@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: |
+  If you use this software in your research, please cite it using the
+  metadata below.
+title: "TEGAT: A Temporal Event Graph Attention Network for Transmission
+  Risk Analysis via Heterogeneous Event Networks from Multi-Provincial
+  Epidemiological Investigation Texts"
+version: 1.0.0
+date-released: 2024-09-04
+url: "https://github.com/RockyZhang1122/TEGAT"
+authors:
+  - family-names: Zhang
+    given-names: Heng
+    affiliation: Chongqing Vocational University of Electronic Technology
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+  - family-names: Liu
+    given-names: Jianfeng
+    affiliation: "The First Affiliated Hospital of Chongqing University of Chinese Medicine"
+  - family-names: Yang
+    given-names: Rui
+    affiliation: Chongqing Vocational University of Electronic Technology
+keywords:
+  - transmission risk
+  - heterogeneous event network
+  - graph attention
+  - epidemiological investigation
+  - COVID-19
+  - contact tracing
+license: MIT
+type: software

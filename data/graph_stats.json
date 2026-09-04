@@ -1,0 +1,44 @@
+{
+  "num_cases": 4812,
+  "num_venues": 10,
+  "num_dates": 81,
+  "num_transports": 8,
+  "num_symptoms": 6,
+  "edges_case_venue": 10586,
+  "edges_case_date": 4799,
+  "edges_case_transport": 2599,
+  "edges_case_case": 31147,
+  "edges_case_symptom": 2935,
+  "feature_shapes": {
+    "case": [
+      4812,
+      8
+    ],
+    "venue": [
+      10,
+      10
+    ],
+    "date": [
+      81,
+      4
+    ],
+    "transport": [
+      8,
+      8
+    ],
+    "symptom": [
+      6,
+      6
+    ]
+  },
+  "label_distribution": {
+    "positive": 3166,
+    "negative": 1646,
+    "positive_ratio": 0.6579384871155445
+  },
+  "data_split": {
+    "train": 3368,
+    "val": 481,
+    "test": 963
+  }
+}
