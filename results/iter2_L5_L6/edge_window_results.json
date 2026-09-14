@@ -1,0 +1,32 @@
+{
+  "+-1d": {
+    "n_edges": 20624,
+    "positive_ratio": 0.6818,
+    "AUC-ROC": 0.971,
+    "F1": 0.9645
+  },
+  "+-3d": {
+    "n_edges": 20624,
+    "positive_ratio": 0.6916,
+    "AUC-ROC": 0.9821,
+    "F1": 0.9769
+  },
+  "+-5d": {
+    "n_edges": 20624,
+    "positive_ratio": 0.6935,
+    "AUC-ROC": 0.9845,
+    "F1": 0.9769
+  },
+  "+-7d": {
+    "n_edges": 20624,
+    "positive_ratio": 0.6941,
+    "AUC-ROC": 0.986,
+    "F1": 0.9777
+  },
+  "+-14d": {
+    "n_edges": 20624,
+    "positive_ratio": 0.6964,
+    "AUC-ROC": 0.9887,
+    "F1": 0.9815
+  }
+}

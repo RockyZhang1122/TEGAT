@@ -1,0 +1,491 @@
+{
+  "all_results": {
+    "42": {
+      "LR": {
+        "AUC-ROC": 0.9206,
+        "AP": 0.9288,
+        "Accuracy": 0.8764,
+        "F1": 0.9099,
+        "Precision": 0.8623,
+        "Recall": 0.9631
+      },
+      "SVM": {
+        "AUC-ROC": 0.9365,
+        "AP": 0.9422,
+        "Accuracy": 0.919,
+        "F1": 0.9396,
+        "Precision": 0.9087,
+        "Recall": 0.9728
+      },
+      "MLP": {
+        "AUC-ROC": 0.9383,
+        "AP": 0.9406,
+        "Accuracy": 0.9263,
+        "F1": 0.9448,
+        "Precision": 0.917,
+        "Recall": 0.9744
+      },
+      "RF": {
+        "AUC-ROC": 0.9572,
+        "AP": 0.9566,
+        "Accuracy": 0.9148,
+        "F1": 0.9381,
+        "Precision": 0.8871,
+        "Recall": 0.9952
+      },
+      "XGBoost": {
+        "AUC-ROC": 0.9578,
+        "AP": 0.9586,
+        "Accuracy": 0.9398,
+        "F1": 0.9547,
+        "Precision": 0.9314,
+        "Recall": 0.9792
+      },
+      "TEGAT-Red": {
+        "AUC-ROC": 0.9742,
+        "AP": 0.9847,
+        "Accuracy": 0.8868,
+        "F1": 0.9068,
+        "Precision": 0.9725,
+        "Recall": 0.8494
+      },
+      "TEGAT": {
+        "AUC-ROC": 0.9742,
+        "AP": 0.9847,
+        "Accuracy": 0.8868,
+        "F1": 0.9068,
+        "Precision": 0.9725,
+        "Recall": 0.8494
+      }
+    },
+    "123": {
+      "LR": {
+        "AUC-ROC": 0.926,
+        "AP": 0.944,
+        "Accuracy": 0.8733,
+        "F1": 0.9087,
+        "Precision": 0.861,
+        "Recall": 0.962
+      },
+      "SVM": {
+        "AUC-ROC": 0.9397,
+        "AP": 0.9494,
+        "Accuracy": 0.9065,
+        "F1": 0.9316,
+        "Precision": 0.8949,
+        "Recall": 0.9715
+      },
+      "MLP": {
+        "AUC-ROC": 0.9442,
+        "AP": 0.9527,
+        "Accuracy": 0.9263,
+        "F1": 0.9453,
+        "Precision": 0.9192,
+        "Recall": 0.9731
+      },
+      "RF": {
+        "AUC-ROC": 0.964,
+        "AP": 0.9711,
+        "Accuracy": 0.9138,
+        "F1": 0.9376,
+        "Precision": 0.8914,
+        "Recall": 0.9889
+      },
+      "XGBoost": {
+        "AUC-ROC": 0.9588,
+        "AP": 0.9659,
+        "Accuracy": 0.9294,
+        "F1": 0.9471,
+        "Precision": 0.9298,
+        "Recall": 0.9651
+      },
+      "TEGAT-Red": {
+        "AUC-ROC": 0.9789,
+        "AP": 0.9883,
+        "Accuracy": 0.9034,
+        "F1": 0.9224,
+        "Precision": 0.9736,
+        "Recall": 0.8764
+      },
+      "TEGAT": {
+        "AUC-ROC": 0.9789,
+        "AP": 0.9883,
+        "Accuracy": 0.9034,
+        "F1": 0.9224,
+        "Precision": 0.9736,
+        "Recall": 0.8764
+      }
+    },
+    "456": {
+      "LR": {
+        "AUC-ROC": 0.9302,
+        "AP": 0.9407,
+        "Accuracy": 0.8733,
+        "F1": 0.9056,
+        "Precision": 0.8731,
+        "Recall": 0.9405
+      },
+      "SVM": {
+        "AUC-ROC": 0.9571,
+        "AP": 0.9687,
+        "Accuracy": 0.9211,
+        "F1": 0.9403,
+        "Precision": 0.92,
+        "Recall": 0.9614
+      },
+      "MLP": {
+        "AUC-ROC": 0.9539,
+        "AP": 0.9589,
+        "Accuracy": 0.9356,
+        "F1": 0.9513,
+        "Precision": 0.9294,
+        "Recall": 0.9743
+      },
+      "RF": {
+        "AUC-ROC": 0.966,
+        "AP": 0.9712,
+        "Accuracy": 0.9242,
+        "F1": 0.9436,
+        "Precision": 0.9079,
+        "Recall": 0.9823
+      },
+      "XGBoost": {
+        "AUC-ROC": 0.9716,
+        "AP": 0.9748,
+        "Accuracy": 0.9408,
+        "F1": 0.9545,
+        "Precision": 0.9477,
+        "Recall": 0.9614
+      },
+      "TEGAT-Red": {
+        "AUC-ROC": 0.9786,
+        "AP": 0.9894,
+        "Accuracy": 0.9024,
+        "F1": 0.9194,
+        "Precision": 0.9853,
+        "Recall": 0.8617
+      },
+      "TEGAT": {
+        "AUC-ROC": 0.9786,
+        "AP": 0.9894,
+        "Accuracy": 0.9024,
+        "F1": 0.9194,
+        "Precision": 0.9853,
+        "Recall": 0.8617
+      }
+    },
+    "789": {
+      "LR": {
+        "AUC-ROC": 0.9221,
+        "AP": 0.9444,
+        "Accuracy": 0.8775,
+        "F1": 0.9125,
+        "Precision": 0.8662,
+        "Recall": 0.9639
+      },
+      "SVM": {
+        "AUC-ROC": 0.934,
+        "AP": 0.9444,
+        "Accuracy": 0.9128,
+        "F1": 0.9368,
+        "Precision": 0.9003,
+        "Recall": 0.9765
+      },
+      "MLP": {
+        "AUC-ROC": 0.9413,
+        "AP": 0.9559,
+        "Accuracy": 0.9283,
+        "F1": 0.9478,
+        "Precision": 0.9165,
+        "Recall": 0.9812
+      },
+      "RF": {
+        "AUC-ROC": 0.9548,
+        "AP": 0.965,
+        "Accuracy": 0.9065,
+        "F1": 0.9336,
+        "Precision": 0.8816,
+        "Recall": 0.9922
+      },
+      "XGBoost": {
+        "AUC-ROC": 0.9593,
+        "AP": 0.9721,
+        "Accuracy": 0.9398,
+        "F1": 0.9555,
+        "Precision": 0.9354,
+        "Recall": 0.9765
+      },
+      "TEGAT-Red": {
+        "AUC-ROC": 0.9816,
+        "AP": 0.991,
+        "Accuracy": 0.9097,
+        "F1": 0.929,
+        "Precision": 0.9693,
+        "Recall": 0.8918
+      },
+      "TEGAT": {
+        "AUC-ROC": 0.9816,
+        "AP": 0.991,
+        "Accuracy": 0.9097,
+        "F1": 0.929,
+        "Precision": 0.9693,
+        "Recall": 0.8918
+      }
+    },
+    "1024": {
+      "LR": {
+        "AUC-ROC": 0.9406,
+        "AP": 0.9563,
+        "Accuracy": 0.8889,
+        "F1": 0.9201,
+        "Precision": 0.8889,
+        "Recall": 0.9536
+      },
+      "SVM": {
+        "AUC-ROC": 0.9472,
+        "AP": 0.9565,
+        "Accuracy": 0.9294,
+        "F1": 0.9484,
+        "Precision": 0.9301,
+        "Recall": 0.9675
+      },
+      "MLP": {
+        "AUC-ROC": 0.9454,
+        "AP": 0.9488,
+        "Accuracy": 0.9356,
+        "F1": 0.9527,
+        "Precision": 0.9384,
+        "Recall": 0.9675
+      },
+      "RF": {
+        "AUC-ROC": 0.9669,
+        "AP": 0.9755,
+        "Accuracy": 0.9263,
+        "F1": 0.9471,
+        "Precision": 0.9125,
+        "Recall": 0.9845
+      },
+      "XGBoost": {
+        "AUC-ROC": 0.9665,
+        "AP": 0.9737,
+        "Accuracy": 0.947,
+        "F1": 0.9607,
+        "Precision": 0.9556,
+        "Recall": 0.9659
+      },
+      "TEGAT-Red": {
+        "AUC-ROC": 0.9798,
+        "AP": 0.9861,
+        "Accuracy": 0.9013,
+        "F1": 0.9216,
+        "Precision": 0.9876,
+        "Recall": 0.8638
+      },
+      "TEGAT": {
+        "AUC-ROC": 0.9798,
+        "AP": 0.9861,
+        "Accuracy": 0.9013,
+        "F1": 0.9216,
+        "Precision": 0.9876,
+        "Recall": 0.8638
+      }
+    }
+  },
+  "summary": {
+    "LR": {
+      "AUC-ROC": {
+        "mean": 0.9279,
+        "std": 0.0072
+      },
+      "AP": {
+        "mean": 0.9428,
+        "std": 0.0088
+      },
+      "Accuracy": {
+        "mean": 0.8779,
+        "std": 0.0058
+      },
+      "F1": {
+        "mean": 0.9114,
+        "std": 0.0049
+      },
+      "Precision": {
+        "mean": 0.8703,
+        "std": 0.0102
+      },
+      "Recall": {
+        "mean": 0.9566,
+        "std": 0.0089
+      }
+    },
+    "SVM": {
+      "AUC-ROC": {
+        "mean": 0.9429,
+        "std": 0.0084
+      },
+      "AP": {
+        "mean": 0.9522,
+        "std": 0.0096
+      },
+      "Accuracy": {
+        "mean": 0.9178,
+        "std": 0.0077
+      },
+      "F1": {
+        "mean": 0.9393,
+        "std": 0.0055
+      },
+      "Precision": {
+        "mean": 0.9108,
+        "std": 0.0128
+      },
+      "Recall": {
+        "mean": 0.9699,
+        "std": 0.0051
+      }
+    },
+    "MLP": {
+      "AUC-ROC": {
+        "mean": 0.9446,
+        "std": 0.0053
+      },
+      "AP": {
+        "mean": 0.9514,
+        "std": 0.0063
+      },
+      "Accuracy": {
+        "mean": 0.9304,
+        "std": 0.0043
+      },
+      "F1": {
+        "mean": 0.9484,
+        "std": 0.0032
+      },
+      "Precision": {
+        "mean": 0.9241,
+        "std": 0.0085
+      },
+      "Recall": {
+        "mean": 0.9741,
+        "std": 0.0044
+      }
+    },
+    "RF": {
+      "AUC-ROC": {
+        "mean": 0.9618,
+        "std": 0.0049
+      },
+      "AP": {
+        "mean": 0.9679,
+        "std": 0.0066
+      },
+      "Accuracy": {
+        "mean": 0.9171,
+        "std": 0.0073
+      },
+      "F1": {
+        "mean": 0.94,
+        "std": 0.0048
+      },
+      "Precision": {
+        "mean": 0.8961,
+        "std": 0.012
+      },
+      "Recall": {
+        "mean": 0.9886,
+        "std": 0.0048
+      }
+    },
+    "XGBoost": {
+      "AUC-ROC": {
+        "mean": 0.9628,
+        "std": 0.0054
+      },
+      "AP": {
+        "mean": 0.969,
+        "std": 0.0061
+      },
+      "Accuracy": {
+        "mean": 0.9394,
+        "std": 0.0057
+      },
+      "F1": {
+        "mean": 0.9545,
+        "std": 0.0043
+      },
+      "Precision": {
+        "mean": 0.94,
+        "std": 0.01
+      },
+      "Recall": {
+        "mean": 0.9696,
+        "std": 0.0069
+      }
+    },
+    "TEGAT-Red": {
+      "AUC-ROC": {
+        "mean": 0.9786,
+        "std": 0.0024
+      },
+      "AP": {
+        "mean": 0.9879,
+        "std": 0.0023
+      },
+      "Accuracy": {
+        "mean": 0.9007,
+        "std": 0.0075
+      },
+      "F1": {
+        "mean": 0.9198,
+        "std": 0.0073
+      },
+      "Precision": {
+        "mean": 0.9777,
+        "std": 0.0074
+      },
+      "Recall": {
+        "mean": 0.8686,
+        "std": 0.0144
+      }
+    },
+    "TEGAT": {
+      "AUC-ROC": {
+        "mean": 0.9786,
+        "std": 0.0024
+      },
+      "AP": {
+        "mean": 0.9879,
+        "std": 0.0023
+      },
+      "Accuracy": {
+        "mean": 0.9007,
+        "std": 0.0075
+      },
+      "F1": {
+        "mean": 0.9198,
+        "std": 0.0073
+      },
+      "Precision": {
+        "mean": 0.9777,
+        "std": 0.0074
+      },
+      "Recall": {
+        "mean": 0.8686,
+        "std": 0.0144
+      }
+    }
+  },
+  "config": {
+    "tau": 7.0,
+    "edge_window": 3,
+    "seeds": [
+      42,
+      123,
+      456,
+      789,
+      1024
+    ],
+    "n_cases": 4812,
+    "positive_ratio": 0.6579384871155445
+  }
+}
